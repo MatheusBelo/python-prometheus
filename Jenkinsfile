@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     // Definir a variável para o caminho do script Python
-                    def pythonScriptPath = "caminho/para/o/script.py"
+                    def pythonScriptPath = ". app.py"
 
                     // Executar o script Python usando o interpretador Python
                     sh "python3 ${pythonScriptPath}"
